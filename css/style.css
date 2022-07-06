@@ -1,0 +1,35 @@
+.background{
+    background-color: #f16775;
+}
+.items{
+    width: 100vw;
+}
+.first{
+    width: 100%;
+    height: 73vh;
+    overflow: auto;
+}
+.left{
+    float: left;
+    width: 60%;
+    margin-top: 5px;
+}
+.right{
+    float: right;
+    width: 60%;
+    margin-top: 5px;
+}
+.center{
+    width: 60%;
+    margin: auto;
+    margin-top: 5px;
+    text-align: center;
+}
+.center{
+    margin: auto;
+    width: 60%;
+    margin-top: 5px;
+}
+.font{
+    font-family: 'Splash', cursive;
+}
