@@ -1,3 +1,7 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
 .background{
     background-color: #f16775;
 }
@@ -6,8 +10,11 @@
 }
 .first{
     width: 100%;
-    height: 73vh;
+    height: 100vh;
     overflow: auto;
+}
+.second{
+    width: 98%;    ;
 }
 .left{
     float: left;
@@ -24,11 +31,6 @@
     margin: auto;
     margin-top: 5px;
     text-align: center;
-}
-.center{
-    margin: auto;
-    width: 60%;
-    margin-top: 5px;
 }
 .font{
     font-family: 'Splash', cursive;

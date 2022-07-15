@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg background">
+    <nav class="navbar navbar-expand-lg background sticky-top">
         <div class="container-fluid">
             <a class="navbar-brand text-light font" href="#">HEYA</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
@@ -29,15 +29,15 @@
         <div class="first" id="first">
         </div>
 
-        <div class="second">
+        <div class="second sticky-bottom">
             <form class="mt-2 d-flex" method="post" onsubmit="sendMessage();return false">
                 <input type="text" class="form-control" id="msg" placeholder="Enter Your message : ">
-                <button class="btn btn-success btn-sm">Send</button>
+                <button class="btn btn-success ">Send</button>
             </form>
         </div>
     </section>
-    <footer class="background mt-2 p-3 text-light text-center fixed-buttom">
-        copyrigth@heya.com
+    <footer class="background mt-2 p-3 text-light text-center ">
+        copyright@heya.com
     </footer>
     <script src="http://localhost:8000/socket.io/socket.io.js"></script>
     <script src="js/client.js"></script>
