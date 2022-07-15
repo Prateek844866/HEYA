@@ -6,7 +6,7 @@
     background-color: #f16775;
 }
 .items{
-    width: 100vw;
+    width: 100%;
 }
 .first{
     width: 100%;
@@ -14,17 +14,20 @@
     overflow: auto;
 }
 .second{
-    width: 98%;    ;
+    width: 100%;    ;
 }
 .left{
-    float: left;
+    margin-left: 5px;
     width: 60%;
     margin-top: 5px;
+    text-align: left;
 }
 .right{
-    float: right;
+    margin-right: 5px;
+    margin-left: auto;
     width: 60%;
     margin-top: 5px;
+    text-align: right;
 }
 .center{
     width: 60%;
