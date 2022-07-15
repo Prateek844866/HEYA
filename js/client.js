@@ -5,7 +5,7 @@ const first = document.getElementById("first")
 
 var name = window.prompt("Enter Your Name to Join the Chat :  ")
 socket.emit("new-user-joined",name)
-appendMessage(`You Joined tha Chat`,"center")
+appendMessage(`You Joined the Chat`,"center")
 
 function appendMessage(msg,position){
     const msgBox = document.createElement("div")
@@ -30,11 +30,11 @@ function sendMessage(){
 }
 
 socket.on("user-joined",(name)=>{
-    appendMessage(`${name} Joined tha Chat`,"center")
+    appendMessage(`${name} Joined the Chat`,"center")
 })
 socket.on("receive",(data)=>{
     appendMessage(`${data.name} : ${data.message}`,"left")
 })
 socket.on("left",(name)=>{
-    appendMessage(`${name} Left tha Chat`,"center")
+    appendMessage(`${name} Left the Chat`,"center")
 })
